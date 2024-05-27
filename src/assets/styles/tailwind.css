@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-weight: 200; /* NOTE: not working! PS */
+}
+
 @layer utilities {
   .bg-page {
     background-color: var(--aw-color-bg-page);
