@@ -1,6 +1,6 @@
 site:
-  name: thediamondageai
-  site: 'https://astro.thediamondage.ai/'
+  name: TheDiamondAgeAI
+  site: 'https://astro.TheDiamondAge.AI/'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: thediamondageai
+    default: TheDiamondAgeAI
     template: '%s — The Diamond Age AI'
-  description: "thediamondageai, AI, NPC, LLM"
+  description: "TheDiamondageAI, AI, NPC, LLM"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: thediamondageai
+    site_name: TheDiamondageAI
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -66,7 +66,7 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'light:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
   tokens:
     default:
@@ -78,7 +78,7 @@ ui:
         default: rgb(16 16 16)
         heading: rgb(0 0 0)
         muted: rgb(40 40 40)
-        bgPage: rgb(255 255 255)
+        bgPage: rgb(25 255 255)
         primary: rgb(0 124 220)
         secondary: rgb(30 58 138)
         accent: rgb(109 40 217)
